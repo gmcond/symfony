@@ -10,7 +10,7 @@ class HolaController
     public function hola()
     {
         return new Response(
-            '<html><body>Hola mundo desde <strong>Symfony</strong><br>parzibyte.me</body></html>'
+            '<html><body>Hola mundo desde <strong>Symfony</strong></body></html>'
         );
     }
     /**
